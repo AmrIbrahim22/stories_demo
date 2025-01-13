@@ -14,6 +14,8 @@
 		423A50652D34443400E48FAA /* stories_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A50642D34443400E48FAA /* stories_demoTests.swift */; };
 		423A506F2D34443400E48FAA /* stories_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A506E2D34443400E48FAA /* stories_demoUITests.swift */; };
 		423A50712D34443400E48FAA /* stories_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A50702D34443400E48FAA /* stories_demoUITestsLaunchTests.swift */; };
+		423A507E2D3444C000E48FAA /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A507D2D3444C000E48FAA /* LoadingBar.swift */; };
+		423A50802D34499F00E48FAA /* countTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A507F2D34499F00E48FAA /* countTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		423A506A2D34443400E48FAA /* stories_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stories_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		423A506E2D34443400E48FAA /* stories_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stories_demoUITests.swift; sourceTree = "<group>"; };
 		423A50702D34443400E48FAA /* stories_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stories_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		423A507D2D3444C000E48FAA /* LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBar.swift; sourceTree = "<group>"; };
+		423A507F2D34499F00E48FAA /* countTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				423A50532D34443400E48FAA /* stories_demoApp.swift */,
 				423A50552D34443400E48FAA /* ContentView.swift */,
+				423A507F2D34499F00E48FAA /* countTimer.swift */,
+				423A507D2D3444C000E48FAA /* LoadingBar.swift */,
 				423A50572D34443400E48FAA /* Assets.xcassets */,
 				423A50592D34443400E48FAA /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				423A50562D34443400E48FAA /* ContentView.swift in Sources */,
+				423A50802D34499F00E48FAA /* countTimer.swift in Sources */,
+				423A507E2D3444C000E48FAA /* LoadingBar.swift in Sources */,
 				423A50542D34443400E48FAA /* stories_demoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
