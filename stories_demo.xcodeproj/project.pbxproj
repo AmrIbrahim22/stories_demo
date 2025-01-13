@@ -16,6 +16,7 @@
 		423A50712D34443400E48FAA /* stories_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A50702D34443400E48FAA /* stories_demoUITestsLaunchTests.swift */; };
 		423A507E2D3444C000E48FAA /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A507D2D3444C000E48FAA /* LoadingBar.swift */; };
 		423A50802D34499F00E48FAA /* countTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A507F2D34499F00E48FAA /* countTimer.swift */; };
+		423A50822D3541F200E48FAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 423A50812D3541F200E48FAA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		423A50702D34443400E48FAA /* stories_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stories_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		423A507D2D3444C000E48FAA /* LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBar.swift; sourceTree = "<group>"; };
 		423A507F2D34499F00E48FAA /* countTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countTimer.swift; sourceTree = "<group>"; };
+		423A50812D3541F200E48FAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		423A50472D34443400E48FAA = {
 			isa = PBXGroup;
 			children = (
+				423A50812D3541F200E48FAA /* README.md */,
 				423A50522D34443400E48FAA /* stories_demo */,
 				423A50632D34443400E48FAA /* stories_demoTests */,
 				423A506D2D34443400E48FAA /* stories_demoUITests */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423A50822D3541F200E48FAA /* README.md in Resources */,
 				423A505B2D34443400E48FAA /* Preview Assets.xcassets in Resources */,
 				423A50582D34443400E48FAA /* Assets.xcassets in Resources */,
 			);
